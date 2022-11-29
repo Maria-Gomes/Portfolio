@@ -55,13 +55,16 @@
     <div class="container-fluid">
       <div class="main row">
         <div class="col-lg-12">
-          <div class="splide" aria-label="Splide Basic HTML Example">
+          <div
+            class="main-splide splide"
+            aria-label="Splide Basic HTML Example"
+          >
             <div class="splide__track">
               <ul class="splide__list">
                 <li class="splide__slide">
                   <div class="splide-item">
-                    <div class="row justify-content-center mt-5">
-                      <div class="landing col-lg-6 col-md-6 col-sm-6 text-left">
+                    <div class="row justify-content-center">
+                      <div class="col-lg-6 col-md-6 col-sm-6 text-left mt-5">
                         <h1 style="font-size: xx-large">Hi, I'm Maria.</h1>
                         <p style="font-size: x-large">
                           A computer science graduate and aspiring developer
@@ -88,7 +91,7 @@
 
                 <li class="splide__slide">
                   <div class="splide-item">
-                    <div class="row mt-5">
+                    <div class="row">
                       <div class="col-lg-9 col-md-6 col-sm-6 text-left mx-auto">
                         <h1 style="font-size: xx-large">TMan</h1>
                       </div>
@@ -374,7 +377,8 @@
         arrows: false,
         pagination: false,
         direction: "ttb",
-        heightRatio: "1",
+        heightRatio: "0.75",
+        drag: false,
       }).mount();
       let navItems = document.getElementsByClassName("nav-link");
       for (let i = 0; i < navItems.length; i++) {

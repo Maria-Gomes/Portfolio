@@ -24,23 +24,13 @@ body {
 .container-fluid {
   text-align: center;
   color: var(--white);
-  height: 85vh;
+  height: 88vh;
+  overflow-y: hidden;
 }
 
-.main {
+.main-splide {
   overflow-y: auto;
-  height: 100%;
 }
-
-/* .project-text {
-  margin-right: 0;
-  margin-left: auto;
-}
-
-.project-image {
-  margin-left: 0;
-  margin-right: auto;
-} */
 
 .home-hr {
   border: 0;
